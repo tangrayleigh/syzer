@@ -59,6 +59,11 @@ footer {
 	width: 100%;
 }
 
+footer > p {
+	margin: 2rem 0 0;
+	color: lightgray;
+}
+
 .infoContainer {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -71,8 +76,9 @@ footer {
 	grid-area: image;
 }
 
-.dogInfo {
+.infoBox {
 	grid-area: info;
+	padding: 1rem;
 }
 
 .preview:target,
@@ -114,21 +120,11 @@ footer {
   background-color: deepskyblue;
 }
 
-.preview .prev {
-  top: calc(50% - 1em);
-	left: 0;
-}
-
-.preview .next {
-  top: calc(50% - 1em);
-  right: 0;
-}
-
 .preview .close {
   top: 0;
   right: 0;
 }
-/* 		
+		
 .preview {
 	display: none;
-} */
+}
